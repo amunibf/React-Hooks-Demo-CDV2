@@ -1,0 +1,24 @@
+10. useEffect with cleanup : MouseContainer.js
+add   return ()=>{
+            console.log('Component unmounting code')
+            window.removeEventListener('mousemove', logMousePosition)
+        } for HookMouse.js 
+equivalent of conponentWillUnmount
+
+11. useEffect w/ incorrect dependency : intervalHookCounter.js
+12.fetching databw/ useEffect : DataFetching.js
+posts.map(post=>{<li key={post.id}>{post.title}</li>}) (not ok)
+posts.map(post=>(<li key={post.id}>{post.title}</li>)) (ok)
+posts.map(post=><li key={post.id}>{post.title}</li>) (ok)
+use App2 for render
+19. useReducer : CounterOne.js
+20. useReducer complex state and action : CounterTwo.js
+21. multiple useReducer : CounterThree.js
+22. useReducer and useContext : ComponentA..F.js
+
+
+
+
+
+
+
