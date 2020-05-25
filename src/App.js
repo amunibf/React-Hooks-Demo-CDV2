@@ -5,6 +5,7 @@ import ComponentC from './components/ComponentC';
 import DataFetchingOne from './components/DataFetchingOne';
 import DataFetchingTwo from './components/DataFetchingTwo';
 import ParentComponent from './components/ParentComponent';
+import Counter from './components/Counter';
 
 export const CountContext = React.createContext()
 
@@ -29,7 +30,8 @@ function App() {
   return (
     <CountContext.Provider value={{countState : count, countDispatch : dispatch}}>
       <div className="App">
-      <ParentComponent/>
+      <Counter/>
+      {/* <ParentComponent/> */}
       {/* <DataFetchingTwo/> */}
         {/* <DataFetchingOne/> */}
        {/*  Count - {count}
