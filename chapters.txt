@@ -16,7 +16,7 @@ use App2 for render
 21. multiple useReducer : CounterThree.js
 22. useReducer and useContext : ComponentA..F.js
 23 & 24. Fetch data with useReducer : DataFetchingOne.js & DataFetchingTwo.js
-
+25. useCallback to optimize performance and prevent rerender : ParentComponent.js, Title.js, Button.js, Count.js
 
 
 
