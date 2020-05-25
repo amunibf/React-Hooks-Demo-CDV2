@@ -15,6 +15,7 @@ use App2 for render
 20. useReducer complex state and action : CounterTwo.js
 21. multiple useReducer : CounterThree.js
 22. useReducer and useContext : ComponentA..F.js
+23 & 24. Fetch data with useReducer : DataFetchingOne.js & DataFetchingTwo.js
 
 
 
