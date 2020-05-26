@@ -18,6 +18,8 @@ use App2 for render
 23 & 24. Fetch data with useReducer : DataFetchingOne.js & DataFetchingTwo.js
 25. useCallback to optimize performance and prevent rerender : ParentComponent.js, Title.js, Button.js, Count.js
 27. useMemo is to cache a result (no need prnthss for render) vs useCalback for a function : Counter.js
+28. useRef : FocusInput.js -focus on input
+29. useRef  : HookTimer.js -container mutable data
 
 
 
