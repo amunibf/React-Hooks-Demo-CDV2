@@ -20,7 +20,7 @@ use App2 for render
 27. useMemo is to cache a result (no need prnthss for render) vs useCalback for a function : Counter.js
 28. useRef : FocusInput.js -focus on input
 29. useRef  : HookTimer.js -container mutable data
-
+30 & 31. custom hooks : DocTitleOne.js, DocTitleOne.js, useDocumentTitle.js
 
 
 
