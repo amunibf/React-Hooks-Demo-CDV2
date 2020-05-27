@@ -11,6 +11,8 @@ import ClassTimer from './components/ClassTimer';
 import HookTimer from './components/HookTimer';
 import DocTitleOne from './components/DocTitleOne';
 import DocTitleTwo from './components/DocTitleTwo';
+import CounterOne from './components/CounterOne';
+import CounterTwo from './components/CounterTwo';
 
 export const CountContext = React.createContext()
 
@@ -35,8 +37,10 @@ function App() {
   return (
     <CountContext.Provider value={{countState : count, countDispatch : dispatch}}>
       <div className="App">
-      <DocTitleTwo/>
-      <DocTitleOne/>
+      <CounterTwo/>
+      <CounterOne/>
+{/*       <DocTitleTwo/>
+      <DocTitleOne/> */}
       {/* <HookTimer/> */}
       {/* <ClassTimer/> */}
       {/* <FocusInput/> */}
