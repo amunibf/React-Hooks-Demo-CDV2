@@ -13,6 +13,7 @@ import DocTitleOne from './components/DocTitleOne';
 import DocTitleTwo from './components/DocTitleTwo';
 import CounterOne from './components/CounterOne';
 import CounterTwo from './components/CounterTwo';
+import UserForm from './components/UserForm';
 
 export const CountContext = React.createContext()
 
@@ -37,8 +38,9 @@ function App() {
   return (
     <CountContext.Provider value={{countState : count, countDispatch : dispatch}}>
       <div className="App">
-      <CounterTwo/>
-      <CounterOne/>
+      <UserForm/>
+      {/* <CounterTwo/>
+      <CounterOne/> */}
 {/*       <DocTitleTwo/>
       <DocTitleOne/> */}
       {/* <HookTimer/> */}

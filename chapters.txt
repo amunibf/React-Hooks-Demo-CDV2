@@ -22,6 +22,9 @@ use App2 for render
 29. useRef  : HookTimer.js -container mutable data
 30 & 31. custom hooks : DocTitleOne.js, DocTitleOne.js, useDocumentTitle.js
 32. custom hooks (useCounter) : CounterOne.js, CounterTwo.js, useCounter.js
+33. custom hooks (useInput) : UserForm.js, useInput.js
+remember     return [value,reset,bind] ~     const [firstName,resetFirstName, bindFirstName ]=useInput()
+
 
 
 
